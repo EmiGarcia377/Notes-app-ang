@@ -1,0 +1,26 @@
+#notes-page{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .note-list{
+        background-image: url(/assets/cork.webp);
+        background-size: cover;
+        border: 10px solid brown;
+        width: 70%;
+        min-width: 450px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        li{
+            list-style: none;
+        }
+    }
+}
